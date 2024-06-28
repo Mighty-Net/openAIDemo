@@ -1,0 +1,23 @@
+{
+  "en":{
+    "loginingText":"Logining...",
+    "downloadingText": "Downloading...",
+    "confirmtext":"OK",
+    "submittext":"Submit",
+    "canceltext":"Cancel",
+    "cleartext":"Clear",
+    "deletetext":"Delete",
+    "deleteAlltext":"Delete All",
+    "addnewText":"Add New",
+    "saveText":"Save",
+    "readText":"Load",
+    "yesText":"Yes",
+    "noText":"No",
+    "ErrorText":"Error!",
+    "WarnText":"Warning!",
+    "SucessText":"Success!",
+    "ErrocodeText":"Error Code"
+  }
+
+
+}
