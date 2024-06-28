@@ -1,0 +1,97 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@layer base {
+html, body, div, span, applet, object, iframe, 
+p, blockquote, pre, 
+a, abbr, acronym, address, big, cite, code, 
+del, dfn, em, font, img, ins, kbd, q, s, samp, 
+small, strike, strong, sub, sup, tt, var, 
+b, u, i, center, 
+dl, dt, dd, ol, ul, li, 
+fieldset, form, label, legend, 
+table, caption, tbody, tfoot, thead, th, td { 
+    margin: 0; 
+    padding: 0; 
+    border: 0; 
+    outline: 0; 
+    font-size: 100%; 
+    vertical-align: baseline; 
+    background: transparent; 
+} 
+
+ol, ul { 
+    list-style: none; 
+} 
+blockquote, q { 
+    quotes: none; 
+} 
+blockquote:before, blockquote:after, 
+q:before, q:after { 
+    content: ''; 
+    content: none; 
+} 
+
+/* remember to define focus styles! */ 
+:focus { 
+    outline: 0; 
+} 
+input:focus::-webkit-input-placeholder{color:transparent;}
+input:focus::-moz-placeholder{color:transparent;} /* firefox 19+ */
+input:focus::-ms-input-placeholder{color:transparent;} /* ie */
+input:focus::-moz-placeholder{color:transparent;}
+textarea:focus::-webkit-input-placeholder{color:transparent;}
+textarea:focus::-moz-placeholder{color:transparent;} /* firefox 19+ */
+textarea:focus::-ms-input-placeholder{color:transparent;} /* ie */
+textarea:focus::-moz-placeholder{color:transparent;}
+input,textarea{border-style: groove;cursor:text;}
+a{cursor:pointer;}
+input:-webkit-autofill, textarea:-webkit-autofill, select:-webkit-autofill
+{
+  background-color:green;
+}
+
+/* remember to highlight inserts somehow! */ 
+ins { 
+    text-decoration: none; 
+} 
+del { 
+    text-decoration: line-through; 
+} 
+
+/* tables still need 'cellspacing="0"' in the markup */ 
+table { 
+  /*  border-collapse: collapse; */
+    border-spacing: 0; 
+}
+a{text-decoration:none;color:inherit;}
+*{
+  /*font-family:'Open Sans Condensed', sans-serif;*/
+  font-family: 'Noto Sans TC', sans-serif;
+  letter-spacing: -1px;
+  font-weight: 300;
+  box-sizing: border-box;
+  text-size-adjust: none;
+  -webkit-text-size-adjust: none;
+  -moz-text-size-adjust: none;
+  -ms-text-size-adjust: none;
+  cursor:default;
+}
+.fieldValue.error
+{
+  -webkit-box-shadow:inset 0 1px 1px rgba(0,0,0,0.075),0 0 8px rgba(82,0,0,0.6);-moz-box-shadow:inset 0 1px 1px rgba(0,0,0,0.075),0 0 8px rgba(82,0,0,0.6);box-shadow:inset 0 1px 1px rgba(0,0,0,0.075),0 0 8px rgba(82,0,0,0.6);
+  border-color:red;
+}
+.rbshadow{
+  -webkit-box-shadow:1px 1px 5px -1px rgba(0,0,0,0.9);
+  box-shadow:1px 1px 5px -1px rgba(0,0,0,0.9)
+}
+.formframe{
+  -webkit-box-shadow: 2px 2px 3px 0px #777;
+  box-shadow: 2px 2px 3px 0px #777;
+  border-radius: 4px;
+  max-width:720px;
+  width:100%;
+  padding:10px;
+}
+}
