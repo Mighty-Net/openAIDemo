@@ -1,6 +1,6 @@
 <?php
 
-use App\Http\Controllers\LineHook\LineGPT;
+use App\Http\Controllers\LineGPT;
 use Illuminate\Http\Request;
 
 Route::post('/linegpt', function (Request $request) {
